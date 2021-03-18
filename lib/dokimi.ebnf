@@ -1,0 +1,23 @@
+@@grammar::Dokimi
+
+start
+    =
+    stmt { stmt } + $
+    ;
+
+stmt
+    =
+    | assignment
+    | symbol
+    ;
+
+assignment
+    =
+    symbol '=' stmt
+    ;
+
+symbol
+    =
+    /[^=]/
+    ;
+
