@@ -1,1 +1,4 @@
 .precomp
+__pycache__/
+*.egg-info
+dokenv/

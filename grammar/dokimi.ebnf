@@ -13,11 +13,16 @@ stmt
 
 assignment
     =
-    symbol '=' stmt
+    symbol call symbol
+    ;
+
+call
+    =
+    ( ' ' | '.' ) symbol
     ;
 
 symbol
     =
-    /[^=]/
+    /\S+/
     ;
 

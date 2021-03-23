@@ -1,0 +1,13 @@
+def type PositiveInt as Int
+ * >= 0
+end
+
+def func fib(PositiveInt number): PositiveInt
+  if number == 0|1
+    return number
+  else
+    return fib(number - 2) + fib(number - 1)
+  end
+end
+
+print(fib(10))

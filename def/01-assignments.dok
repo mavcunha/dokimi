@@ -1,4 +1,51 @@
+a=1
+b =1
+c = 1
 
-x = 1
-y=1
+# full form
+# symbol . method (args)
+# symbol . method (arg ':' value, name ':' value, name ':' value)
 
+# <param> = name: value
+# <args> = <param> ','
+# name: value, name: value, 
+
+# <list> := '(' <element> ','? ')'
+
+# <element> := <param> | <list> | <symbol> 
+
+def func
+def type
+def var
+def class
+def method
+
+def type PositiveInt as Int
+ *.> 0 
+end
+
+def class Type 
+end
+
+# this definition
+def PositiveInt x = 1
+
+if (PositiveInt(value))
+  x = value
+else
+  raise TypeConstraintViolation('x is not assignable to value 1', $rule$.CRITERIA)
+end
+
+
+
+
+x .= (value: 1)
+
+y .=(1)
+z .= (1)
+k .= ( 1 )
+w  .=  (  1  )
+
+large = short
+
+complex .= (simple)
